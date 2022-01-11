@@ -1,3 +1,10 @@
+
+/* body
+{
+    background-color: black;
+    color: white;
+} */
+
 .navbar {
   background-color: black;
 }
@@ -16,22 +23,51 @@
 }
 
 .btn {
-  background-color: rgb(178, 74, 85);
+  background-color: rgb(204, 48, 64);
   color: white;
   border-radius: 0;
-  height: 55px;
+  border: 0;
+  height: 6vh;
+}
+.btn:hover
+{
+    background-color: rgb(147, 65, 73);
 }
 
 .navbar-toggler
 {
-    
-
     background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     width: 8vw
     !important
 }
 
+.footerHeadings
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(178, 74, 85);
+}
+
+.footerSubHeading
+{
+    font-weight:bold;
+    font-size:x-large;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    padding-right: 35px
+    !important
+}
+
+.addressText
+{
+    text-align: left;
+    display: flex;
+    justify-content: center
+    !important
+}
 
 @media (max-width: 1090px) {
   .nav-link {
@@ -45,11 +81,15 @@
     
   }
   .btn {
-    background-color: rgb(178, 74, 85);
+    background-color: rgb(204, 48, 64);
     color: white;
     border-radius: 0;
     height: 40px;
   }
+  .btn:hover
+{
+    background-color: rgb(147, 65, 73);
+}
   .nav-item {
     display: flex;
     justify-content: center;
