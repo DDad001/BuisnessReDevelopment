@@ -5,6 +5,11 @@
     color: white;
 } */
 
+.menuHeroImage
+{
+background-image: url("");
+}
+
 .navbar {
   background-color: black;
 }
