@@ -10,6 +10,7 @@
 background-image: url("../images/sarang-pande-5djt8Pkqdc4-unsplash.png");
 background-position: center;
 background-size: cover;
+height: 60vh;
 }
 
 .navbar {
@@ -83,14 +84,22 @@ background-size: cover;
     justify-content: center;
     align-items:center;
     height: 30vh;
-    margin: 175px;
+    margin: 135px;
 }
 
 .textOurMenu
 {
     color: white;
+    font-size: 35px;
     opacity:100%
     !important
+}
+.textOurMenuSub
+{
+  color: white;
+  font-size: 18px;
+  opacity:100%
+  !important
 }
 
 @media (max-width: 1090px) {
