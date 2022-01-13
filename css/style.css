@@ -103,6 +103,10 @@ height: 60vh;
   opacity:100%
   !important
 }
+.cardBgColor
+{
+  background-color: #690f18;
+}
 
 @media (max-width: 1090px) {
   .nav-link {
