@@ -7,7 +7,10 @@
 
 .menuHeroImage
 {
-background-image: url("");
+background-image: url("../images/sarang-pande-5djt8Pkqdc4-unsplash.png");
+background-position: center;
+background-size: cover;
+height: 60vh;
 }
 
 .navbar {
@@ -71,6 +74,23 @@ background-image: url("");
     text-align: left;
     display: flex;
     justify-content: center
+    !important
+}
+
+.bgMainPage{
+    background: black 0% 0% no-repeat padding-box;
+    opacity: 70%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 30vh;
+    margin: 175px;
+}
+
+.textOurMenu
+{
+    color: white;
+    opacity:100%
     !important
 }
 
