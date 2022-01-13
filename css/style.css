@@ -13,6 +13,14 @@ background-size: cover;
 height: 60vh;
 }
 
+.homeHeroImage
+{
+background-image: url("../images/d82f1bd4e2a3401372574cba74eed410.png");
+background-position: center;
+background-size: cover;
+height: 60vh;
+}
+
 .navbar {
   background-color: black;
 }
