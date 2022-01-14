@@ -195,3 +195,15 @@ body {
   }
   
 }
+
+.contactHeroImage{
+  background-image: url("../images/contact\ hero.png");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+}
+
+.contactYellowText{
+  color: rgb(255, 166, 0);
+  font-weight: bold;
+}
