@@ -184,4 +184,14 @@ body {
 .locationBG {
   background-color: rgba(0, 0, 0, 0.7);
   align-items: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+
+@media (max-width:1500px) {
+  .map{
+    width: 100%;
+  }
+  
 }
