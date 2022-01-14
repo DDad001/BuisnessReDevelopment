@@ -1,24 +1,20 @@
-
-/* body
-{
-    background-color: black;
-    color: white;
-} */
-
-.menuHeroImage
-{
-background-image: url("../images/sarang-pande-5djt8Pkqdc4-unsplash.png");
-background-position: center;
-background-size: cover;
-height: 60vh;
+body {
+  background-color: black;
+  color: white;
 }
 
-.homeHeroImage
-{
-background-image: url("../images/d82f1bd4e2a3401372574cba74eed410.png");
-background-position: center;
-background-size: cover;
-height: 60vh;
+.menuHeroImage {
+  background-image: url("../images/sarang-pande-5djt8Pkqdc4-unsplash.png");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+}
+
+.homeHeroImage {
+  background-image: url("../images/d82f1bd4e2a3401372574cba74eed410.png");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
 }
 
 .navbar {
@@ -45,73 +41,60 @@ height: 60vh;
   border: 0;
   height: 6vh;
 }
-.btn:hover
-{
-    background-color: rgb(147, 65, 73);
+.btn:hover {
+  background-color: rgb(147, 65, 73);
 }
 
-.navbar-toggler
-{
-    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    width: 8vw
-    !important
+.navbar-toggler {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  width: 8vw !important;
 }
 
-.footerHeadings
-{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-    color: rgb(178, 74, 85);
+.footerHeadings {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(178, 74, 85);
 }
 
-.footerSubHeading
-{
-    font-weight:bold;
-    font-size:x-large;
-    text-align: left;
-    display: flex;
-    justify-content: center;
-    padding-right: 35px
-    !important
+.footerSubHeading {
+  font-weight: bold;
+  font-size: x-large;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  padding-right: 35px !important;
 }
 
-.addressText
-{
-    text-align: left;
-    display: flex;
-    justify-content: center
-    !important
+.addressText {
+  text-align: left;
+  display: flex;
+  justify-content: center !important;
 }
 
-.bgMainPage{
-    background:rgba(0, 0, 0, 0.7);
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    height: 30vh;
-    margin: 135px;
+.bgMainPage {
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  margin: 135px;
 }
 
-.textMain
-{
-    color: white;
-    font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
-    opacity:100%
-    !important
+.textMain {
+  color: white;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 100% !important;
 }
-.textSub
-{
+.textSub {
   color: white;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
-  opacity:100%
-  !important
+  opacity: 100% !important;
 }
-.cardBgColor
-{
+.cardBgColor {
   background-color: #690f18;
 }
 
@@ -123,8 +106,7 @@ height: 60vh;
     margin-top: 14vh;
     font-size: 24px;
     padding: 0;
-    margin:15px;
-    
+    margin: 15px;
   }
   .btn {
     background-color: rgb(204, 48, 64);
@@ -132,10 +114,9 @@ height: 60vh;
     border-radius: 0;
     height: 40px;
   }
-  .btn:hover
-{
+  .btn:hover {
     background-color: rgb(147, 65, 73);
-}
+  }
   .nav-item {
     display: flex;
     justify-content: center;
@@ -145,36 +126,62 @@ height: 60vh;
   }
 }
 
-
-
-.aboutUsHeroImage{
+.aboutUsHeroImage {
   background-image: url("../images/About\ Us\ Image.png");
-background-position: center;
-background-size: cover;
-height: 60vh;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
 }
 
-.aboutUsBG{
+.aboutUsBG {
   background-color: rgba(0, 0, 0, 0.7);
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    height: 30vh;
-    margin-top: 100px;
-    margin-left: 500px;
-    width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  margin-top: 100px;
+  margin-left: 500px;
+  width: 500px;
 }
 
-.aboutUsText{
+.aboutUsText {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  background-color: rgb(178, 74, 85,100);
+  background-color: rgb(178, 74, 85, 100);
   color: white;
   opacity: 100%;
   width: 300px;
 }
 
-.aboutUsText1{
+.aboutUsText1 {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.padding {
+  padding-top: 120px;
+}
+
+.locationsHeroImage {
+  background-image: url("../images/locations\ image.png");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+}
+
+.stocktonImage {
+  background-image: url("../images/stockton\ image.png");
+  background-position: left;
+  background-size:cover;
+}
+
+.sacImage {
+  background-image: url("../images/sac\ image.png");
+  background-position: right;
+  background-size: cover;
+}
+
+.locationBG {
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
 }
