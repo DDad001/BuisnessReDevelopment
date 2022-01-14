@@ -86,8 +86,7 @@ height: 60vh;
 }
 
 .bgMainPage{
-    background: black 0% 0% no-repeat padding-box;
-    opacity: 70%;
+    background:rgba(0, 0, 0, 0.7);
     display: flex;
     justify-content: center;
     align-items:center;
@@ -142,3 +141,36 @@ height: 60vh;
   }
 }
 
+
+
+.aboutUsHeroImage{
+  background-image: url("../images/About\ Us\ Image.png");
+background-position: center;
+background-size: cover;
+height: 60vh;
+}
+
+.aboutUsBG{
+  background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 30vh;
+    margin-top: 100px;
+    margin-left: 500px;
+    width: 500px;
+}
+
+.aboutUsText{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: rgb(178, 74, 85,100);
+  color: white;
+  opacity: 100%;
+  width: 300px;
+}
+
+.aboutUsText1{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
