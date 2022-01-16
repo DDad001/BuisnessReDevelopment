@@ -45,6 +45,19 @@ body {
   background-color: rgb(147, 65, 73);
 }
 
+
+.Locationsbtn {
+  background-color: rgb(204, 48, 64);
+  color: white;
+  border-radius: 0;
+  border: 0;
+  height: 6vh;
+}
+.Locationsbtn:hover {
+  background-color: rgb(147, 65, 73);
+}
+
+
 .navbar-toggler {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
@@ -93,6 +106,27 @@ body {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   opacity: 100% !important;
+}
+@media (max-width: 1093px)
+{
+  .Locationsbtn {
+    background-color: rgb(204, 48, 64);
+    align-items: center;
+    color: white;
+    border-radius: 0;
+    border: 0;
+    height: 6vh;
+  }
+  .orderNowText
+  {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+
+  } 
+
+  .Locationsbtn:hover {
+    background-color: rgb(147, 65, 73);
+  }
 }
 
 @media (max-width: 1090px) {
@@ -188,9 +222,15 @@ body {
   align-items: center;
   margin-top: 10%;
   margin-bottom: 10%;
-  height: 15vh;
-  width: 35vw;
+  height: 16vh;
+  margin: 10%;
 }
+
+.locationText
+{
+ padding-top: 25px;
+}
+
 
 @media (max-width:1500px) {
   .map{
