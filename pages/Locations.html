@@ -1,61 +1,172 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Hello, world!</title>
-  </head>
-  <body>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Cap's Pizza - Locations</title>
+</head>
 
-    <div class="container-fluid p-0 ">
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12 p-0">
-            <nav class=" navbar navbar-expand-lg px-5">
-                <a class = "navbar-brand "href="/index.html">
-                    <img src="../images/CAPS Logo.png" class = "Logo" alt="Caps Logo" height ="170px">
-                </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link mx-2 selectedPageColor" href="../index.html">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mx-2" href="../pages/Menu.html">Menu</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mx-2" href="../pages/Locations.html">Locations</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mx-2" href="../pages/Contact.html">Contact Us</a>
-                      </li>
-                      <li class="nav-item">
-                        <button type="button" class="btn nav-link mx-2 px-3">Order Now</button>
-                      </li>
-                    </ul>
-                  </div>
-              </nav>
-        </div>
+<body>
+  <div class="container-fluid">
+    <!--NAV BAR-->
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 p-0">
+        <nav class=" navbar navbar-expand-lg px-5">
+          <a class="navbar-brand " href="/index.html">
+            <img src="../images/CAPS Logo.png" class="Logo" alt="Caps Logo" height="170px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="../pages/Menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 selectedPageColor" href="../pages/Locations.html">Locations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="../pages/Contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn nav-link mx-2 px-3">Order Now</button>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
-</div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <!--LOCATIONS HERO-->
+    <div class="row locationsHeroImage">
+      <div class="col-12 d-flex justify-content-center p-0">
+        <div class="col-7 bgMainPage">
+          <div class="col-12">
+            <h1 class="text-center textMain">Visit Us at
+              Our Locations</h1>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src = "../scripts/script.js"></script>
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+    <!--LOCATIONS -->
+    <div class="padding"></div>
+    <div class="container px-4">
+      <div class="row gy-5">
+        <div class="col-lg-6 col-md-12 order-sm-0 order-lg-0">
+         <div class="p-4 stocktonImage">
+           <div class="locationBG text-center">
+             <h1>Stockton,CA</h1>
+             <p>7628 Pacific Ave, Stockton, CA 95207</p>
+           </div>
+           <div class="col-12 d-flex justify-content-center">
+            <button type="button" class="btn nav-link m-0">Order Now</button>
+          </div>
+         </div>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.204886855775!2d-121.3247083849478!3d38.01900270584386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80900d43cdcda869%3A0x6d4960e5029abedd!2sCAPs%20Pizza%20and%20Tap%20House!5e0!3m2!1sen!2sus!4v1642196052369!5m2!1sen!2sus" width="624" height="550" style="border:0;" allowfullscreen="" loading="lazy" class="pt-5 map"></iframe>
+        </div>
+        <div class="col-lg-6 col-md-12 order-sm-3 order-lg-1">
+          <div class="p-4 sacImage">
+            <div class="locationBG text-center">
+              <h1>Sacramento, CA</h1>
+              <p>8760 La Riviera Dr A, Sacramento, CA 95826</p>
+            </div>
+            <div class="col-12 d-flex justify-content-center">
+              <button type="button" class="btn nav-link m-0">Order Now</button>
+            </div>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3119.722809715152!2d-121.38120703439083!3d38.56319977417834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809adb156be4aa63%3A0xc6acee17fb93e65a!2sCAP%E2%80%99s%20Pizza%20and%20Tap%20House!5e0!3m2!1sen!2sus!4v1642196205498!5m2!1sen!2sus" width="624" height="550" style="border:0;" allowfullscreen="" loading="lazy" class="pt-5 map"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- The Footer Starts Here -->
+
+    <footer class="footer p-0 m-0 pt-5">
+
+      <div class="row text-center">
+        <div class="col-lg-4 ">
+          <p class="footerHeadings">Hours</p>
+          <div class="row">
+            <div class="col-6">
+              Mon - Thurs <br>
+              Fri - Sat <br>
+              Sunday
+            </div>
+            <div class="col-6">
+              12PM - 11PM <br>
+              12PM - 12AM <br>
+              12PM - 10PM
+            </div>
+          </div>
+        </div>
+        <!-- End of Hours Section -->
+
+        <div class="col-lg-4 ">
+          <p class="footerHeadings">Follow Us</p>
+          <div class="row">
+            <div class="col-12">
+              <a href=""><img src="../images/pngaaa.com-4886904.png" class="" alt="" height=45px></a>
+              <a href=""><img src="../images/pngaaa.com-399218.png" alt="" height=45px></a>
+              <a href=""><img src="../images/twittercrop.png" class="mt-3" alt="" height=68px></a>
+            </div>
+          </div>
+
+        </div>
+        <!-- End of Follow Us Section -->
+
+        <div class="col-lg-4">
+          <p class="footerHeadings">Locations</p>
+          <div class="row">
+            <div class="col-6">
+              <p class="m-0 footerSubHeading">Stockton</p>
+              <div class="addressText">
+                7628 Pacific Ave <br>
+                Stockton, CA 95207 <br>
+                209-340-1377
+              </div>
+            </div>
+            <div class="col-6">
+              <p class="m-0 footerSubHeading">Sacramento</p>
+              <p class="addressText">
+                8760 La Riviera Dr A <br>
+                Sacramento, CA 95826 <br>
+                916-399-4217
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+    </footer>
+    <!-- The Footer Ends Here -->
+  </div>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="../scripts/script.js"></script>
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
