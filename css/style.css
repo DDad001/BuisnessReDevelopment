@@ -183,6 +183,13 @@ body {
   align-items: center;
   margin-top: 10%;
   margin-bottom: 10%;
+  height: 15vh;
+  width: 35vw;
+}
+
+h1
+{
+
 }
 
 
@@ -198,15 +205,6 @@ body {
   background-position: center;
   background-size: cover;
   height: 60vh;
-}
-
-/* .cardLineUp
-{
-  height: 68px;
-} */
-h2
-{
-  color:#FFA600;
 }
 
 .contactYellowText{
@@ -249,11 +247,6 @@ p
 {
   color: white;
 }
-/* 
-.mtCards
-{
-  margin-top: 10vh;
-} */
 
 .fontMenuCard
 {
@@ -261,15 +254,6 @@ p
   font-size: 27px;
 }
 
-/* .marginLeftAmount
-{
-  margin-left: 70px;
-} */
-/* 
-.padding
-{
-  padding: 120px;
-} */
 .PastaCardHeight
 {
   height: 68vh;
