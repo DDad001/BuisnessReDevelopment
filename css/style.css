@@ -216,3 +216,107 @@ h2
   color: rgb(255, 166, 0);
   font-weight: bold;
 }
+
+
+.removeMargin{
+  margin: 0 !important;
+}
+
+.FooterHeight{
+height: 0%;
+}
+
+.card
+{
+  border: none;
+
+}
+
+.MarginBottomCard{
+  margin-bottom: 19.7%;
+}
+
+.ImageSizeCard{
+  height:537px;
+  width:537px;
+}
+
+h2
+{
+  color:#FFA600;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+p
+{
+  color: white;
+}
+/* 
+.mtCards
+{
+  margin-top: 10vh;
+} */
+
+.fontMenuCard
+{
+  font-weight: bold;
+  font-size: 27px;
+}
+
+/* .marginLeftAmount
+{
+  margin-left: 70px;
+} */
+/* 
+.padding
+{
+  padding: 120px;
+} */
+.PastaCardHeight
+{
+  height: 68vh;
+}
+
+
+.paddingEndCards
+{
+  padding: 100px;
+}
+
+
+@media (max-width: 1500px)
+{
+  .paddingEndCards
+  {
+    padding: 0;
+  }
+  .removePaddingOnSmall
+  {
+    padding: 0;
+  }
+  .card
+  {
+    margin-top: 50px;
+  }
+  .fontMenuCard
+{
+  font-weight: bold;
+  font-size: 22px;
+}
+/* .cardLineUp
+{
+  height: 68px;
+} */
+h2
+{
+  color:#FFA600;
+  font-weight: bold;
+  font-size: 26px;
+}
+.removeMarginOnSmall
+{
+  margin-top:0 !important;
+}
+}
+
