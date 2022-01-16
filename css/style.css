@@ -86,8 +86,7 @@ height: 60vh;
 }
 
 .bgMainPage{
-    background: black 0% 0% no-repeat padding-box;
-    opacity: 70%;
+    background: rgba(0, 0, 0, .7) 0% 0% no-repeat padding-box;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -98,7 +97,7 @@ height: 60vh;
 .textMain
 {
     color: white;
-    font-size: 35px;
+    font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     opacity:100%
     !important
@@ -113,7 +112,18 @@ height: 60vh;
 }
 .cardBgColor
 {
-  background-color: #690f18;
+  background-color: #49130f;
+
+}
+
+body
+{
+  background-color: black;
+}
+
+hr
+{
+  color: white;
 }
 
 @media (max-width: 1090px) {
@@ -144,5 +154,105 @@ height: 60vh;
   .Logo {
     height: 100px;
   }
+}
+
+
+
+.removeMargin{
+  margin: 0 !important;
+}
+
+.FooterHeight{
+height: 0%;
+}
+
+.card
+{
+  border: none;
+
+}
+
+.MarginBottomCard{
+  margin-bottom: 19.7%;
+}
+
+.ImageSizeCard{
+  height:537px;
+  width:537px;
+}
+
+h2
+{
+  color:#FFA600;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+p
+{
+  color: white;
+}
+/* 
+.mtCards
+{
+  margin-top: 10vh;
+} */
+
+.fontMenuCard
+{
+  font-weight: bold;
+  font-size: 27px;
+}
+
+/* .marginLeftAmount
+{
+  margin-left: 70px;
+} */
+/* 
+.padding
+{
+  padding: 120px;
+} */
+.PastaCardHeight
+{
+  height: 68vh;
+}
+
+
+.paddingEndCards
+{
+  padding: 100px;
+}
+
+
+@media (max-width: 1500px)
+{
+  .paddingEndCards
+  {
+    padding: 0;
+  }
+  .removePaddingOnSmall
+  {
+    padding: 0;
+  }
+  .card
+  {
+    margin-top: 50px;
+  }
+  .fontMenuCard
+{
+  font-weight: bold;
+  font-size: 22px;
+}
+h2
+{
+  color:#FFA600;
+  font-weight: bold;
+  font-size: 26px;
+}
+.removeMarginOnSmall
+{
+  margin-top:0 !important;
+}
 }
 
