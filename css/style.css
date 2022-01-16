@@ -94,9 +94,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   opacity: 100% !important;
 }
-.cardBgColor {
-  background-color: #690f18;
-}
 
 @media (max-width: 1090px) {
   .nav-link {
@@ -318,5 +315,10 @@ h2
 {
   margin-top:0 !important;
 }
+}
+.cardBgColor
+{
+  background-color: #49130f;
+
 }
 
