@@ -135,8 +135,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 35vh;
-  margin-top: 100px;
+  height: 50vh;
+  margin-top: 42px;
   margin-left: 500px;
   width: 400px;
 }
@@ -147,13 +147,17 @@ body {
   background-color: rgb(178, 74, 85, 100);
   color: white;
   opacity: 100%;
-  width: 300px;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 25px;
 }
 
 .aboutUsText1 {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 10px;
+  font-size: 20px;
+  padding: 15px;
 }
 
 .padding {
@@ -187,12 +191,6 @@ body {
   height: 15vh;
   width: 35vw;
 }
-
-h1
-{
-
-}
-
 
 @media (max-width:1500px) {
   .map{
