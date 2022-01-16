@@ -73,25 +73,6 @@ body {
   justify-content: center !important;
 }
 
-.bgMainPage{
-    background: rgba(0, 0, 0, .7) 0% 0% no-repeat padding-box;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    height: 30vh;
-    margin: 135px;
-}
-
-.textMain
-{
-    color: white;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    opacity:100%
-    !important
-}
-
- 
 .bgMainPage {
   background: rgba(0, 0, 0, 0.7);
   display: flex;
@@ -113,24 +94,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   opacity: 100% !important;
 }
-.cardBgColor
-{
-  background-color: #49130f;
-
-}
-
-body
-{
-  background-color: black;
-}
-
-hr
-{
-  color: white;
-}
-
-.cardBgColor
-{
+.cardBgColor {
   background-color: #690f18;
 }
 
@@ -162,101 +126,84 @@ hr
   }
 }
 
-.removeMargin{
-  margin: 0 !important;
+.aboutUsHeroImage {
+  background-image: url("../images/About\ Us\ Image.png");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
 }
 
-.FooterHeight{
-height: 0%;
+.aboutUsBG {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  margin-top: 100px;
+  margin-left: 500px;
+  width: 500px;
 }
 
-.card
-{
-  border: none;
-}
-
-.MarginBottomCard{
-  margin-bottom: 19.7%;
-}
-/* 
-.ImageSizeCard{
-  height:537px;
-  width:537px;
-} */
-
-h2
-{
-  color:#FFA600;
+.aboutUsText {
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 35px;
-}
-
-p
-{
+  background-color: rgb(178, 74, 85, 100);
   color: white;
-}
-/* 
-.mtCards
-{
-  margin-top: 10vh;
-} */
-
-.fontMenuCard
-{
-  font-weight: bold;
-  font-size: 27px;
+  opacity: 100%;
+  width: 300px;
 }
 
-/* .marginLeftAmount
-{
-  margin-left: 70px;
-} */
-/* 
-.padding
-{
-  padding: 120px;
-} */
-.PastaCardHeight
-{
-  height: 68vh;
-}
-
-
-/* .paddingEndCards
-{
-  padding: 100px;
-} */
-
-
-@media (max-width: 1500px)
-{
-  .paddingEndCards
-  {
-    padding: 0;
-  }
-  .removePaddingOnSmall
-  {
-    padding: 0;
-  }
-  .card
-  {
-    margin-top: 50px;
-  }
-  .fontMenuCard
-{
-  font-weight: bold;
-}
-.blank{
+.aboutUsText1 {
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h2
-{
-  color:#FFA600;
-  font-weight: bold;
-  font-size: 26px;
+.padding {
+  padding-top: 120px;
 }
-.removeMarginOnSmall
-{
-  margin-top:0 !important;
+
+.locationsHeroImage {
+  background-image: url("../images/locations\ image.png");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+}
+
+.stocktonImage {
+  background-image: url("../images/stockton\ image.png");
+  background-position: left;
+  background-size:cover;
+}
+
+.sacImage {
+  background-image: url("../images/sac\ image.png");
+  background-position: right;
+  background-size: cover;
+}
+
+.locationBG {
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+
+@media (max-width:1500px) {
+  .map{
+    width: 100%;
+  }
+  
+}
+
+.contactHeroImage{
+  background-image: url("../images/contact\ hero.png");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+}
+
+.contactYellowText{
+  color: rgb(255, 166, 0);
+  font-weight: bold;
 }
