@@ -90,12 +90,39 @@ body {
     opacity:100%
     !important
 }
+<<<<<<< HEAD
 
+=======
+ 
+.bgMainPage {
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  margin: 135px;
+}
+
+.textMain {
+  color: white;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 100% !important;
+}
+>>>>>>> 1c7e78fe287fb081e9235689549e4a9361c6bf12
 .textSub {
   color: white;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   opacity: 100% !important;
+<<<<<<< HEAD
+=======
+}
+.cardBgColor
+{
+  background-color: #49130f;
+
+>>>>>>> 1c7e78fe287fb081e9235689549e4a9361c6bf12
 }
 
 body
