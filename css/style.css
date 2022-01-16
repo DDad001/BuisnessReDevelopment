@@ -90,32 +90,12 @@ body {
     opacity:100%
     !important
 }
- 
-.bgMainPage {
-  background: rgba(0, 0, 0, 0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30vh;
-  margin: 135px;
-}
 
-.textMain {
-  color: white;
-  font-size: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-  opacity: 100% !important;
-}
 .textSub {
   color: white;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   opacity: 100% !important;
-}
-.cardBgColor
-{
-  background-color: #49130f;
-
 }
 
 body
@@ -161,8 +141,6 @@ hr
   }
 }
 
-
-
 .removeMargin{
   margin: 0 !important;
 }
@@ -174,17 +152,16 @@ height: 0%;
 .card
 {
   border: none;
-
 }
 
 .MarginBottomCard{
   margin-bottom: 19.7%;
 }
-
+/* 
 .ImageSizeCard{
   height:537px;
   width:537px;
-}
+} */
 
 h2
 {
@@ -224,10 +201,10 @@ p
 }
 
 
-.paddingEndCards
+/* .paddingEndCards
 {
   padding: 100px;
-}
+} */
 
 
 @media (max-width: 1500px)
