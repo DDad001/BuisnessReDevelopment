@@ -71,13 +71,22 @@ body {
   color: rgb(178, 74, 85);
 }
 
-.footerSubHeading {
+.footerSubHeading1 {
   font-weight: bold;
   font-size: x-large;
   text-align: left;
   display: flex;
   justify-content: center;
-  padding-right: 35px !important;
+  padding-right: 45px !important;
+}
+
+.footerSubHeading2 {
+  font-weight: bold;
+  font-size: x-large;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  padding-right: 34px !important;
 }
 
 .addressText {
