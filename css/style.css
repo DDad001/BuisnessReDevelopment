@@ -199,7 +199,7 @@ body {
     height: 50vh;
     margin-top: 42px;
     margin-left: 500px;
-    width: 100% !important;
+    width: 100vw !important;
     margin-right: 0px !important;
   }
   .bgMainHome{
@@ -208,9 +208,37 @@ body {
     justify-content: center;
     align-items: center;
     height: 30vh;
-    width: 100%;
+    width: 95vw;
     margin: 135px;
   }  
+  .bgMainPage {
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 95vw;
+    margin: 135px;
+  }
+  .aboutUsText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(178, 74, 85, 100);
+    color: white;
+    opacity: 100%;
+    font-size: 25px !important;
+    width: 210px !important;
+    padding-top: 13px !important;
+    padding-bottom: 13px !important;
+    margin-top: 40px !important;
+  }
+  
+  .aboutUsText1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px !important;
+    padding: 15px;
+  }
 }
 
 .aboutUsHeroImage {
@@ -439,4 +467,158 @@ color: black;
 .ModelCardColor
 {
   background-color: rgb(255, 255, 255);
+}
+
+
+@media (max-width: 390px)
+{
+  .aboutUsText1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 15px;
+  }
+  .aboutUsText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(178, 74, 85, 100);
+    color: white;
+    opacity: 100%;
+    font-size: 24px;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+  }
+
+  .bgMainHome{
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 90vw;
+    margin: 135px;
+  }  
+  .bgMainPage {
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 90vw;
+    margin: 135px;
+  }
+  .cardHeight
+{
+  height: 60vh;
+}
+.fontMenuCard
+{
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 40px;
+}
+.locationBG {
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  height: 16vh;
+  margin: 10%;
+}
+.Locationsbtn {
+  background-color: rgb(204, 48, 64);
+  color: white;
+  border-radius: 0;
+  border: 0;
+  height: 5vh;
+}
+.orderNowText
+{
+padding-left: 10px !important;
+padding-right: 10px !important;
+font-size: 20px;
+} 
+
+}
+
+
+@media (max-width: 476px)
+{
+  .aboutUsText1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 15px;
+  }
+  .aboutUsText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(178, 74, 85, 100);
+    color: white;
+    opacity: 100%;
+    font-size: 24px;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+  }
+
+  .bgMainHome{
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 90vw;
+    margin: 135px;
+  }  
+  .bgMainPage {
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 90vw;
+    margin: 135px;
+  }
+  .cardHeight
+{
+  height: 65vh;
+}
+.fontMenuCard
+{
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 40px;
+}
+.locationBG {
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  height: 16vh;
+  margin: 10%;
+}
+.Locationsbtn {
+  background-color: rgb(204, 48, 64);
+  color: white;
+  border-radius: 0;
+  border: 0;
+  height: 5vh;
+}
+.orderNowText
+{
+padding-left: 10px !important;
+padding-right: 10px !important;
+font-size: 20px;
+} 
+
+.addressText {
+  text-align: left;
+  display: flex;
+  justify-content: center !important;
+  text-decoration: none;
+}
 }
