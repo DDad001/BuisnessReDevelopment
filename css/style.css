@@ -457,7 +457,7 @@ font-size: 50px;
 
 .ModalFont
 {
-color: black;
+color: white;
 }
 
 .ModalButtons
@@ -465,19 +465,24 @@ color: black;
   font-weight: bold;
   color: white;
   background-color: rgb(204, 48, 64);
-  padding: 8px;
+  padding: 8px; 
+  border: none;
 }
 
 .ModalBackground
 {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .ModelCardColor
 {
-  background-color: rgb(255, 255, 255);
+  background-color: #49130f;
 }
 
+.btn-close
+{
+  opacity: 1;
+}
 
 @media (max-width: 390px)
 {
